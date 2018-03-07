@@ -1929,7 +1929,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header__search-form input[type="search"]::-webkit-input-placeholder {
-   color: #FFFFFF;
+   color: #121212;
    text-align: center !important;
    opacity: 1;
 }
