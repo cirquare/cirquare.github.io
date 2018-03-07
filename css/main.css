@@ -1787,8 +1787,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header__logo img {
-   width: 500px;
-   height: 100px;
+   width: 250px;
+   height: 40px;
 }
 
 
@@ -1929,7 +1929,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header__search-form input[type="search"]::-webkit-input-placeholder {
-   color: #121212;
+   color: #FFFFFF;
    text-align: center !important;
    opacity: 1;
 }
