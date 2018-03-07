@@ -3329,11 +3329,14 @@ footer h4::after {
 /* -------------------------------------------------------------------
  * ## subscribe form
  * ------------------------------------------------------------------- */
+.s-footer__subscribe {
+   border-left: 1px solid rgba(255, 255, 255, 0.2);
+ }
+
 .s-footer__subscribe .subscribe-form {
    margin: 0;
    padding: 0;
    position: relative;
-   border-left: 3px solid rgba(255, 255, 255, 0.2);
 }
 
 .s-footer__subscribe #mc-form {
