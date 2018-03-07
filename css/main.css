@@ -3333,6 +3333,7 @@ footer h4::after {
    margin: 0;
    padding: 0;
    position: relative;
+   border-left: 3px solid rgba(255, 255, 255, 0.2);
 }
 
 .s-footer__subscribe #mc-form {
