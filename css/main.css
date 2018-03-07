@@ -1787,8 +1787,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header__logo img {
-   width: 250px;
-   height: 40px;
+   width: 244px;
+   height: 85px;
 }
 
 
@@ -2128,9 +2128,8 @@ body.search-is-visible {
  * ## main navigation
  * ------------------------------------------------------------------- */
 .header__nav-wrap {
-   margin-top: 15px;
-   border-top: 1px solid rgba(255, 255, 255, 0.04);
-   padding-top: 15px;
+   margin-top: auto;
+   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .header__nav-wrap a {
@@ -2173,7 +2172,7 @@ body.search-is-visible {
 .header__nav li a {
    display: block;
    color: rgba(255, 255, 255, 0.6);
-   line-height: 39px;
+   line-height: 46px;
 }
 
 .header__nav li.has-children > a::after {
@@ -2893,9 +2892,9 @@ html.no-csstransitions .featured {
 }
 
 .s-content__header h1 {
-   font-size: 4.8rem;
-   line-height: 1.25;
-   margin-top: 0;
+   font-size: 3.6rem;
+   line-height: 0;
+   margin-top: -23px;
    letter-spacing: -.15rem;
 }
 
@@ -3631,7 +3630,11 @@ footer h4::after {
 }
 
 .s-content__media img {
+   display: block;
    vertical-align: bottom;
+   margin-left: auto;
+   margin-right: auto;
+   height: 400px;
 }
 
 .s-content__media, .s-content__post-thumb {
