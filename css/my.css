@@ -6,6 +6,11 @@
   /*background-color: #151515;*/
 }
 
+.page-content {
+  overflow: hidden;
+  max-width: 1350px;
+}
+
 /*-------------------------social-------------------------*/
 
 .header_social {
@@ -236,7 +241,7 @@ p.lead {
   font-family:    "metropolis-medium", sans-serif;
   font-size:      1.8rem;
   line-height:    1.8;
-  margin-top:     5.5rem;
+  margin-top:     5rem;
   margin-bottom:  3.6rem;
   text-align:     justify;
   color:          #AAAAAA;

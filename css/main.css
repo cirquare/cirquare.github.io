@@ -2390,7 +2390,7 @@ body.search-is-visible {
  * ------------------------------------------------------------------- */
 .featured {
    background-color: #151515;
-   height: 564px;
+   /*height: 564px;*/
    position: relative;
 }
 
@@ -2465,9 +2465,9 @@ body.search-is-visible {
 .featured .entry__content {
    position: absolute;
    left: 0;
-   bottom: 6rem;
+   /*bottom: 6rem;*/
    width: 100%;
-   padding: 0 20% 0 6rem;
+   padding: 0 6rem 0 4rem;
    display: block;
 }
 
@@ -2492,10 +2492,11 @@ body.search-is-visible {
 }
 
 .featured .entry__profile-pic {
-   float: left;
-   height: 4.2rem;
-   width: 4.2rem;
-   margin-top: -.9rem;
+   float:         left;
+   height:        4.2rem;
+   width:         4.2rem;
+   margin-top:    -.9rem;
+   margin-right:  1.0rem;
 }
 
 .featured .entry__profile-pic img {
@@ -2507,7 +2508,7 @@ body.search-is-visible {
    margin: 0 0 0 6rem;
    padding: 0;
    font-family: "metropolis-semibold", sans-serif;
-   color: rgba(255, 255, 255, 0.5);
+   color: rgba(255, 255, 255, 0.75);
    line-height: 1.5;
 }
 
@@ -2527,7 +2528,7 @@ body.search-is-visible {
 }
 
 .featured .entry__meta a {
-   color: rgba(255, 255, 255, 0.5);
+   color: rgba(255, 255, 255, 0.75);
 }
 
 .featured .entry__meta a:focus, .featured .entry__meta a:hover {
@@ -3625,14 +3626,13 @@ footer h4::after {
  * ------------------------------------------------------------------- */
 .s-content__main {
    margin-top: auto;
-   padding-left: 6rem;
-   padding-right: 6rem;
+   padding-left: 3rem;
+   padding-right: 3rem;
 }
 
 .s-content__main img {
    max-width: 960px;
    margin: 3rem 0 3rem 6rem;
-   /*margin-top: auto;*/
 }
 
 
