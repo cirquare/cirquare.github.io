@@ -205,14 +205,15 @@ p img {
    margin: 0;
 }
 
-p.lead {
-   font-family: "metropolis-medium", sans-serif;
-   font-size: 2rem;
-   line-height: 1.8;
-   margin-bottom: 3.6rem;
-   text-align: justify;
-   color: #FFFFFF;
-}
+/*p.lead {*/
+   /*font-family: "metropolis-medium", sans-serif;*/
+   /*font-size: 1.8rem;*/
+   /*line-height: 1.5;*/
+   /*margin-top: auto;*/
+   /*margin-bottom: 3.6rem;*/
+   /*text-align: justify;*/
+   /*color: #AAAAAA;*/
+/*}*/
 
 @media only screen and (max-width:800px) {
    p.lead {
@@ -1768,7 +1769,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 /* -------------------------------------------------------------------
  * ## header logo
  * ------------------------------------------------------------------- */
-.header__logo {
+.header_logo {
    display: inline-block;
    margin: 0;
    padding: 0;
@@ -1777,7 +1778,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
    width: 250px;
 }
 
-.header__logo a {
+.header_logo a {
    display: block;
    margin: 0 0 0 6px;
    padding: 0;
@@ -1787,10 +1788,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
    transition: all 0.3s ease-in-out;
 }
 
-.header__logo img {
+.header_logo img {
    width: 244px;
    height: 85px;
 }
+
+
 
 
 /* -------------------------------------------------------------------
@@ -1799,11 +1802,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .header__social {
    list-style: none;
    font-size: 23px;
-   line-height: 1;
-   margin: 0;
-   padding: 0;
+   /*line-height: 1;*/
+   /*margin: 0;*/
+   /*padding: 0;*/
    position: absolute;
-   left: 20px;
+   left: 200px;
    top: 12px;
 }
 
@@ -1993,13 +1996,13 @@ body.search-is-visible {
 }
 
 .header__search-trigger::before {
-   font-family: "metropolis-semibold", sans-serif;
+   font-family: "metropolis-bold", sans-serif;
    font-size: 12px;
    text-transform: uppercase;
-   letter-spacing: 2px;
-   line-height: 21px;
+   letter-spacing: 0.3rem;
+   /*line-height: 2px;*/
    content: "Search";
-   display: block;
+   /*display: block;*/
    color: #FFFFFF;
    float: left;
    padding-right: 33px;
@@ -2128,6 +2131,7 @@ body.search-is-visible {
 /* -------------------------------------------------------------------
  * ## main navigation
  * ------------------------------------------------------------------- */
+/*box*/
 .header__nav-wrap {
    margin-top: auto;
    padding: 1em;
@@ -2143,7 +2147,7 @@ body.search-is-visible {
 .header__nav-wrap .header__nav-heading {
    text-align: center;
    font-family: "metropolis-semibold", sans-serif;
-   font-size: 1.4rem;
+   font-size: 5.4rem;
    color: #FFFFFF;
    text-transform: uppercase;
    letter-spacing: .3rem;
@@ -2155,6 +2159,7 @@ body.search-is-visible {
    display: none;
 }
 
+/*header_navi*/
 .header__nav {
    list-style: none;
    margin: 0;
@@ -2166,11 +2171,11 @@ body.search-is-visible {
 .header__nav li {
    display: inline-block;
    position: relative;
-   padding: 0 2rem;
+   padding: 0 2.5rem;
 }
 
 .header__nav li.has-children {
-   padding-right: 3.3rem;
+   padding-right: 3rem;
 }
 
 .header__nav li a {
@@ -3619,14 +3624,15 @@ footer h4::after {
  * ## content main
  * ------------------------------------------------------------------- */
 .s-content__main {
-   margin-top: 6rem;
+   margin-top: auto;
    padding-left: 6rem;
    padding-right: 6rem;
 }
 
 .s-content__main img {
    max-width: 960px;
-   margin: 3rem 0 3rem -6rem;
+   margin: 3rem 0 3rem 6rem;
+   /*margin-top: auto;*/
 }
 
 
