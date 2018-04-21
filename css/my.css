@@ -240,7 +240,7 @@ footer h4::after {
 p.lead {
   font-family:    "metropolis-medium", sans-serif;
   font-size:      1.8rem;
-  line-height:    1.8;
+  line-height:    2.0;
   margin-top:     5rem;
   margin-bottom:  3.6rem;
   text-align:     justify;
