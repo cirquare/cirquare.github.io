@@ -3068,8 +3068,8 @@ html.no-csstransitions .featured {
  *
  * ------------------------------------------------------------------- */
 .s-extra {
-   background-color: #FFFFFF;
-   padding-top: 7.8rem;
+   background-color: #202020;
+   padding-top: -1rem;
    padding-bottom: 9rem;
    font-family: "metropolis-regular", sans-serif;
    font-size: 1.5rem;
