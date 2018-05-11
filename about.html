@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-  <head>
+<head>
 
     <!--- basic page needs
     ================================================== -->
@@ -16,105 +16,148 @@
     <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/my.css">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <!-- script
     ================================================== -->
-    <!--<script src="js/modernizr.js"></script>-->
-    <!--<script src="js/pace.min.js"></script>-->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
 
     <!-- favicons
     ================================================== -->
-    <!--<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-  </head>
+</head>
 
-  <body id="top">
+<body id="top">
 
     <!-- pageheader
     ================================================== -->
-    <section class="pageheader">
-      <header class="header">
-        <div class="hearder__content row">
+    <div class="s-pageheader">
 
-          <div class="header_logo">
-            <a href="index.html">
-              <img src="images/title.png" alt="Yuan-Fang's Homepage">
-            </a> 
-          </div> 
-          <!--header_logo-->
+        <header class="header">
+            <div class="header__content row">
 
-          <ul class="header_social">
-              <li>
-                  <a target="_blank" href="https://www.facebook.com/cirquare03" class="fa fa-facebook" aria-hidden="true"></a></li>
-              </li>
-              <li>
-                  <a target="_blank" href="https://www.instagram.com/_cirquare" class="fa fa-instagram" aria-hidden="true"></a></li>
-              </li>
-              <li style="margin-right: 0;">
-                  <a target="_blank" href="https://www.linkedin.com/in/cirquare" class="fa fa-linkedin" aria-hidden="true"></a></li>
-              </li>
-          </ul> <!--social links--> 
+                <div class="header__logo">
+                    <a class="logo" href="index.html">
+                        <img src="images/title.png" alt="Yuan-Fang's Homepage">
+                    </a>
+                </div> <!-- end header__logo -->
 
-          <nav class="header_navi-box">
-              <ul class="header_navi">
-                  <li><a href="index.html" title="">Home</a></li>
-                  <li class="current"><a href="about.html" title="">About Me</a></li>
-                  <li><a href="resume.html" title="">Resume</a></li>
-                  <!--<li class="has-children">-->
-                  <li class="choice">
-                    <a href="gallery.html" title="">Gallery</a>
-                    <ul class="sub-menu">
-                      <li><a href="people.html">People</a></li>
-                      <li><a href="landscape.html">Landscape</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="contact.html" title="">Contact</a></li>
-              </ul>
-              <!--Navigation Bar-->
-            </nav> 
-        </div>
-      </header>
-    </section>
+                <ul class="header__social">
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/cirquare03" class="fa fa-facebook" aria-hidden="true"></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/_cirquare" class="fa fa-instagram" aria-hidden="true"></a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/cirquare" class="fa fa-linkedin" aria-hidden="true"></a>
+                    </li>
+                </ul> <!-- end header__social -->
+                <a class="header__search-trigger" href="#0"></a>
 
-    <div class="row" style="margin-top: -50px;">
-        <div class="s-content__media col-six">
-            <div class="s-content__post-thumb">
-                <img style="margin-left: 2rem; height: 360px" src="images/thumbs/about/portrait_2.jpg">
+                <div class="header__search">
+
+                    <form role="search" method="get" class="header__search-form" action="#">
+                        <label>
+                            <span class="hide-content">Search for:</span>
+                            <input type="search" class="search-field" placeholder="Type Keywords" value="" name="s" title="Search for:" autocomplete="off">
+                        </label>
+                        <input type="submit" class="search-submit" value="Search">
+                    </form>
+        
+                    <a href="#0" title="Close Search" class="header__overlay-close">Close</a>
+
+                </div>  <!-- end header__search -->
+
+
+                <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
+
+                <nav class="header__nav-wrap">
+
+                    <h2 class="header__nav-heading h6">Site Navigation</h2>
+                
+                    <ul class="header__nav">
+                        <li><a href="index.html" title="">Home</a></li>
+                        <li class="current"><a href="about.html" title="">About me</a></li>
+                        <li><a href="resume.html" title="">Resume</a></li>
+                        <li class="has-children">
+                            <a href="gallery" title="">Gallery</a>
+                            <ul class="sub-menu">
+                              <li><a href="people.html">People</a></li>
+                              <li><a href="landscape.html">Landscape</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html" title="">Contact</a></li>
+                    </ul> <!-- end header__nav -->
+                    
+                    <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
+
+                </nav> <!-- end header__nav-wrap -->
+
+            </div> <!-- header-content -->
+        </header> <!-- header -->
+
+    </div> <!-- end s-pageheader -->
+
+
+    <!-- s-content
+    ================================================== -->
+    <section class="s-content s-content--narrow" style="padding-top: 3rem">
+        <div class="row">
+
+            <div class="col-full s-content__main" style="margin-top: 0rem">
+              <h2 style="padding-bottom: 2rem"> Hello, I am  Yuan-Fang Lin  from Taipei, Taiwan! </h2>
+              <p class="lead" style="font-family: metropolis-regular">I graduated from National Taiwan University and earning my Bachelor of Science Degree in Electrical Engineering in January 2018. I am going to study <b>Computer Science</b> in <b>Columbia University</b> in the coming Fall. I am highly interested in and focus on the related fields of Machine Learning, especially on Deep Learning and its application on Computer Vision. You may take a look on my <a href="resume.html">Resume</a> tag for more details!
+              </p>
             </div>
-        </div> 
 
-        <div class="col-six s-content__main" style="padding-top: 10px">
-          <p class="lead">Hello, I am <b>Yuan-Fang Lin</b> from Taipei, Taiwan. I graduated from Electrical Engineering in National Taiwan University and earned the Bachelor of Science degree in January, 2018. And, I will become graduate student in Columbia University in the coming summer. I am highly interested in and focus on the related fields of Machine Learning, especially on Deep Learning and its application on Computer Vision. You may take a look on my <i>Resume</i> tag for more details!</p>
-        </div>
-    </div>
+            <div class="s-content__media col-full">
+                <div class="s-content__post-thumb">
+                    <img src="images/thumbs/about/portrait_3.jpg" alt="" >
+                </div>
+            </div> <!-- end s-content__media -->
 
-    <div class="row">
-        <div class="col-six s-content__main">
-            <p class='lead'>Apart from my research and teaching experiences, I am a keen amateur photographer, to be specific, a Shutterbug. I enjoy capturing emotions around me with my lens, no matter happiness, sorrowfulness, or even craziness. The smiles on the faces of viewers are my biggest motivation to do photography. I participate lots of activities on or off campus and volunteer to provide high-quality pictures. I recognize those pictures from me as invaluable memories, and hope that one day I can capture all the wonderfulnesses worldwide in my viewpoint to share to the society.</p>
-        </div> 
+            <div class="col-full s-content__main">
+                <div class="row block-1-2 block-tab-full">
+                    <div class="col-block">
+                        <h3 class="quarter-top-margin">A Programmer</h3>
+                        <p> 
+                          Though majoring in Electrical Engineering, I joined the Speech Processing and Machine Learning Lab. to start my journey in Machine Learning. Supervised by Prof. Hung-Yi Lee, I got myself familiar with Semantic Analysis, Speech Processing and so on. Furthermore, I believe in multi-discipline and am inspired by the applications of machine learning on Natural Language Processing. Therefore, I started my research on Computer Vision with Deep Learning in Prof. Yu-Chiang (Frank) Wang's Lab.
+                        </p>
+                    </div>
 
-        <div class="col-six s-content__media">
-            <div class="s-content__post-thumb">
-                <img style="height: 380px" src="images/thumbs/about/portrait.jpg">
-            </div>
-        </div>
-    </div> <!-- end row -->
-
+                    <div class="col-block">
+                        <h3 class="quarter-top-margin">A Photographer</h3>
+                        <p>
+                          Apart from my research and teaching experiences, I am a keen amateur photographer, to be specific, a Shutterbug. I enjoy capturing emotions around me with my lens, no matter happiness, sorrowfulness, or even craziness. The smile faces of viewers are my biggest rewards and motivation to do photography. I was often hired to provide high-quality pictures. I recognize those pictures from me as invaluable memories, and hope that one day I can capture all the wonderfulnesses worldwide in my viewpoint to share to the society. 
+                        </p>
+                    </div>
+                </div>
+            </div> <!-- end s-content__main -->
+            <div class="s-content__media col-full">
+                <div class="s-content__post-thumb">
+                    <img src="images/thumbs/about/portrait.jpg" style="filter: saturate(82%);" alt="" >
+                </div>
+            </div> <!-- end s-content__media -->
+        </div> <!-- end row -->
+    </section> <!-- s-content -->
 
     <!-- s-footer
     ================================================== -->
-    <footer class="footer">
-        <div class="footer_main">
+    <footer class="s-footer">
+
+        <div class="s-footer__main">
             <div class="row">
                 
-                <div class="col-three md-four mob-full s-footer__sitelinks" style="margin-bottom: 2rem;">
+                <div class="col-three md-four mob-full s-footer__sitelinks">
                         
                     <h4>Quick Links</h4>
-                    <ul class="footer_link">
+
+                    <ul class="s-footer__linklist">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Me</a></li>
                         <li><a href="resume.html">Resume</a></li>
@@ -122,42 +165,62 @@
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
 
-                </div> <!-- end footer_links -->
+                </div> <!-- end s-footer__sitelinks -->
 
-                <div class="col-three md-four mob-full s-footer__social" style="margin-bottom: 2rem;">
+                <div class="col-three md-four mob-full s-footer__social">
                         
                     <h4>Social</h4>
-                    <ul class="footer_link">
-                        <li><a target="_blank" href="https://www.facebook.com/cirquare03">Facebook</a></li>
-                        <li><a target="_blank" href="https://instagram.com/_cirquare">Instagram</a></li>
-                        <li><a target="_blank" href="https://www.linkedin.com/in/cirquare">LinkedIn</a></li>
+
+                    <ul class="s-footer__linklist">
+                        <li><a href="https://www.facebook.com/cirquare03">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/_cirquare">Instagram</a></li>
+                        <li><a href="https://www.github.com/cirquare">Github</a></li>
+                        <li><a href="https://www.linkedin.com/in/cirquare">LinkedIn</a></li>
                     </ul>
 
                 </div> <!-- end s-footer__social -->
 
-                <div class="col-four md-full end s-footer__subscribe" style="border-left: 1px solid rgba(255, 255, 255, 0.2)">
-                    <h4> Send Me Message </h4>
-                    <p> Contact me if interested ! </p>
+                <div class="col-five md-full end s-footer__subscribe">
+                        
+                    <h4>Contact Me</h4>
+
+                    <p>Message me if any interested!</p>
+
                     <div class="subscribe-form">
                         <form id="mc-form" class="group" novalidate="true">
+
                             <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                
                             <input type="submit" name="subscribe" value="Send">
+                
                             <label for="mc-email" class="subscribe-message"></label>
+                
                         </form>
                     </div>
-                 </div> <!-- end s-footer__subscribe -->
+
+                </div> <!-- end s-footer__subscribe -->
+
             </div>
-                  
+        </div> <!-- end s-footer__main -->
+
+        <div class="s-footer__bottom">
             <div class="row">
-              <div class="footer_copyright">
-                <span>© Copyright by <a href="http://linkedin.com/in/cirquare/">Yuan-Fang Lin</a> , 2018 <strong> | </strong> </span>
-                <span>Refer to <a href="https://colorlib.com/">Colorlib</a></span>
-              </div>
+                <div class="col-full">
+                    <div class="s-footer__copyright" align="center">
+                      <span>© Copyright by <a href="https://www.linkedin.com/in/cirquare">Yuan-Fang Lin</a></span> 
+                        <span>Thanks / Refer to <a href="https://colorlib.com/">Colorlib</a></span>
+                    </div>
+
+                    <div class="go-top">
+                        <a class="smoothscroll" title="Back to Top" href="#top"></a>
+                    </div>
+                </div>
             </div>
-        </div> <!-- end footer_main -->
+        </div> <!-- end s-footer__bottom -->
 
     </footer> <!-- end s-footer -->
-       
+
+
     <!-- preloader
     ================================================== -->
     <div id="preloader">
