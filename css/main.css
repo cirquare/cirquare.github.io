@@ -664,7 +664,7 @@ select {
    font-family: "metropolis-regular", sans-serif;
    font-size: 1.6rem;
    line-height: 3rem;
-   max-width: 100%;
+   max-width: 65%;
    background: transparent;
    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
    -webkit-transition: all 0.3s ease-in-out;
@@ -726,7 +726,7 @@ select {
 }
 
 textarea {
-   min-height: 25rem;
+   min-height: 15rem;
 }
 
 input[type="email"]:focus,
@@ -882,7 +882,7 @@ input[type="button"].btn--primary:focus {
 /* button modifiers
  * ------------------------------------------------- */
 .btn.full-width, button.full-width {
-   width: 100%;
+   width: 60%;
    margin-right: 0;
 }
 
