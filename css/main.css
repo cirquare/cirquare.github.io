@@ -1557,6 +1557,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .masonry .entry__excerpt {
    font-size: 1.5rem;
    line-height: 1.8;
+   margin-bottom: -4rem;
 }
 
 .masonry .entry__meta {
