@@ -105,76 +105,54 @@
             <!--</div> [> end s-content__media <]-->
 
             <div class="col-full s-content__main">
-                  <div class="row block-1-2 block-tab-full">
+              <div class="row block-1-4 block-tab-full">
+
+                        <div class="col-block" align="center">
+                          &nbsp;
+                        </div>
+
                         <div class="col-block" align="center">
                           <h4 style="margin-top: 2rem"> Where to Find. </h4>
                           <p> 
                             509 West 110 Street <br> New York, NY 10025 <br> United States
                           </p>
                         </div>
-
                         
                         <div class="col-block" align="center">
                           <h4 style="margin-top: 2rem"> Contact Info. </h4>
                           <p>
-                            Email: yf186035@gmail.com </br> Phone: (+886) 912-316-505 
+                            Email: <a href="mailto:yf186035@gmail.com">yf186035@gmail.com</a> </br> Phone: (+886) 912-316-505 
                           </p>
+                        </div>
+
+                        <div class="col-block" align="center">
+                          &nbsp;
                         </div>
 
                     </div> <!-- end row block -->
 
-                    <div class="row" align="center" style="margin-top: 5rem">
-                          <h3 style="margin-top: 2rem"> Say Hello. </h3>
-                          <form name="cForm" id="cForm" method="post" action="mailto:yf186035@gmail.com">
-                              <fieldset>
-                                  <div class="form-field">
-                                      <input name="cName" type="text" id="cName" class="full-width" placeholder="Your Name" value="">
-                                  </div>
+                    <!--<div class="row" align="center" style="margin-top: 5rem">-->
+                          <!--<h3 style="margin-top: 2rem"> Say Hello. </h3>-->
+                          <!--<form name="cForm" id="cForm" method="post" action="mailto:yf186035@gmail.com">-->
+                              <!--<fieldset>-->
+                                  <!--<div class="form-field">-->
+                                      <!--<input name="cName" type="text" id="cName" class="full-width" placeholder="Your Name" value="">-->
+                                  <!--</div>-->
 
-                                  <div class="form-field">
-                                      <input name="cEmail" type="text" id="cEmail" class="full-width" placeholder="Your Email" value="">
-                                  </div>
+                                  <!--<div class="form-field">-->
+                                      <!--<input name="cEmail" type="text" id="cEmail" class="full-width" placeholder="Your Email" value="">-->
+                                  <!--</div>-->
 
-                                  <div class="message form-field">
-                                      <textarea name="cMessage" id="cMessage" class="full-width" placeholder="Your Message" ></textarea>
-                                  </div>
+                                  <!--<div class="message form-field">-->
+                                      <!--<textarea name="cMessage" id="cMessage" class="full-width" placeholder="Your Message" ></textarea>-->
+                                  <!--</div>-->
 
-                                  <button type="submit" class="submit btn btn--primary full-width">Submit</button>
+                                  <!--<button type="submit" class="submit btn btn--primary full-width">Submit</button>-->
 
-                              </fieldset>
-                           </form> <!-- end form -->
-                      </div>
-
-                      <script>
-                         var form = document.getElementsByTagName('form')[0];
-                         form.addEventListener('submit',contact,false);
-                         function contact(e) {
-                            // Prevent Default Form Submission
-                            e.preventDefault();
-
-                            var target = e.target || e.srcElement;
-                            var i = 0;
-                            var message = '';
-
-                            // Loop Through All Input Fields
-                            for(i = 0; i < target.length; ++i) {
-                               // Check to make sure it's a value. Don't need to include Buttons
-                               if(target[i].type != 'text' && target[i].type != 'textarea') {
-                                      // Skip to next input since this one doesn't match our rules
-                                  continue;
-                               }
-
-                               // Add Input Name and value followed by a line break
-                               message += target[i].name + ': ' + target[i].value + "\r\n";
-                            }
-                            // Modify the hidden body input field that is required for the mailto: scheme
-                            target.elements["body"].value = message;
-
-                            // Submit the form since we previously stopped it. May cause recursive loop in some browsers? Should research this.
-                            this.submit();
-                         }
-                      </script>
-
+                              <!--</fieldset>-->
+                           <!--</form> [> end form <]-->
+                      <!--</div>-->
+                      
             </div> <!-- end s-content__main -->
 
         </div> <!-- end row -->
