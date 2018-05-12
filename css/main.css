@@ -1723,7 +1723,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .s-pageheader {
    min-height: 174px;
-   background-image: url(../images/hero-bg.jpg);
+   background-image: url(../images/header/bkg.jpg);
    background-repeat: no-repeat;
    background-position: center center;
    position: relative;
@@ -1801,7 +1801,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
    margin: 0;
    padding: 0;
    position: absolute;
-   left: 20px;
+   right: 25px;
    top: 12px;
 }
 
@@ -3298,7 +3298,7 @@ footer h4::after {
    width: 120px;
    background-color: rgba(255, 255, 255, 0.1);
    position: absolute;
-   left: 0;
+   right: 0;
    bottom: 0;
 }
 
