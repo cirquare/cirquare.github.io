@@ -136,7 +136,7 @@
                                   </div>
 
                                   <div class="message form-field">
-                                    <textarea name="cMessage" id="cMessage" class="full-width" placeholder="Your Message" ></textarea>
+                                      <textarea name="cMessage" id="cMessage" class="full-width" placeholder="Your Message" ></textarea>
                                   </div>
 
                                   <button type="submit" class="submit btn btn--primary full-width">Submit</button>
@@ -145,6 +145,29 @@
                            </form> <!-- end form -->
                       </div>
 
+                      <?php
+                             // from the form
+                             $name = trim(strip_tags($_POST['name']));
+                           $email = trim(strip_tags($_POST['email']));
+                           $message = htmlentities($_POST['message']);
+
+                           // set here
+                           $subject = "Contact form submitted!";
+                           $to = 'your@email.com';
+
+                           $body = <<<HTML
+                      $message
+                      HTML;
+
+                           $headers = "From: $email\r\n";
+                           $headers .= "Content-type: text/html\r\n";
+
+                           // send the email
+                           mail($to, $subject, $body, $headers);
+
+                           // redirect afterwords, if needed
+                         header('Location: thanks.html');
+                      ?>
             </div> <!-- end s-content__main -->
 
         </div> <!-- end row -->
